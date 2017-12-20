@@ -1,4 +1,4 @@
-# Practices
+# Prácticas / Practices
 
 ### Descripción
 
