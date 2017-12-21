@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html ng-app="taskApp">
+  <head>
+    <meta charset="utf-8">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <script src="./lib/angular.js"></script>
+    <script src="./lib/jquery-3.2.1.js"></script>
+    <script src="./lib/bootstrap.js"></script>
+    <script src="./js/app.js"></script>
+  </head>
+  <body ng-controller="taskCtrl as tarea">
+
+    <h1>{{ "Esto es una extpresion de angularjs" }}</h1>
+
+    <div class="container">
+      <div class="col-md-6">
+        <div class="panel">
+          <div class="panel panel-primary">
+            <div class="panel-heading">
+              {{ task.nombre }}
+            </div>
+            <div class="panel-body">
+              <!-- <input class="form-group form-control" type="text" ng-model="tarea.task.nombre"> -->
+              <textarea class="form-control" rows="8" cols="80" ng-model="task.descripcion"></textarea>
+            </div>
+            <div class="panel-footer text-right">
+              <button type="button" class="btn btn-default" data-toggle="modal" data-target="#myModal" ng-click="editar()"><span class="glyphicon glyphicon-pencil"></span></button>
+              <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-trash"></span></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-body">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <br><br>
+          <div class="">
+            <input type="text"class="form-group form-control" ng-model="editando.nombre">
+            <textarea class="form-control" rows="8" cols="80" ng-model="editando.descripcion"></textarea>
+          </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-dismiss="modal" ng-click="cancelar()">Cancelar</button>
+            <button type="button" class="btn btn-primary" ng-click="guardar()">Guardar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>

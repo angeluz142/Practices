@@ -1,0 +1,58 @@
+{
+	"deporte": [
+		{
+			"codigo": "01",
+			"nombre": "Football",
+			"liga": [
+				{
+					"codigo": 1,
+					"nombre": "Espanola"
+				},
+				{
+					"codigo": 2,
+					"nombre": "Italiana"
+				},
+				{
+					"codigo": 3,
+					"nombre": "Portuguesa"
+				}
+			]
+		},
+		{
+			"codigo": "02",
+			"nombre": "Basquetball",
+			"liga": [
+				{
+					"codigo": 1,
+					"nombre": "NBA"
+				},
+				{
+					"codigo": 2,
+					"nombre": "LPB"
+				},
+				{
+					"codigo": 3,
+					"nombre": "ACB"
+				}
+			]
+		},
+		{
+			"codigo": "03",
+			"nombre": "Baseball",
+			"liga": [
+				{
+					"codigo": 1,
+					"nombre": "LVBP"
+				},
+				{
+					"codigo": 2,
+					"nombre": "MLB"
+				},
+				{
+					"codigo": 3,
+					"nombre": "Japonesa"
+				}
+			]
+		}
+	]
+}

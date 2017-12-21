@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es" data-ng-app="readFile">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <script src="./lib/angular.min.js"></script>
+</head>
+
+<body>
+
+    <section class="container" data-ng-controller="controllerRF">
+
+        <input type="text" data-ng-model="juegos">
+
+        <div class="list-group" data-ng-repeat="juego in data.deporte | filter: juegos">
+            <a id="j{{juego.codigo}}" data-toggle="collapse" class="list-group-item active" href="#l{{juego.codigo}}">
+                <!--<a id="j{{juego.codigo}}" data-toggle="collapse"  class="list-group-item active" href="#l{{juego.liga[$index].codigo}}"> -->
+                {{ juego.nombre }}
+            </a>
+            <div id="l{{juego.codigo}}" class="collapse" >
+                <div data-ng-repeat="ligas in juego.liga ">
+                    <a class="list-group-item ">
+                        {{ ligas.nombre }} 
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <script>
+
+    var myApp = angular.module('readFile',[]);  
+
+    myApp.controller('controllerRF', ['$scope','$http', function($scope,$http){
+        
+      
+
+        $http.get('deporte.json')
+            .success(function(response) {
+                $scope.data = response;
+                console.log();
+            })
+            .error(function() {
+                console.log('error');
+            });
+
+          
+
+    }]);  
+
+</script>
+
+
+    <script src="./lib/jquery-2.1.4.js "></script>
+    <script src="./lib/bootstrap.js "></script>
+</body>
+
+</html>
