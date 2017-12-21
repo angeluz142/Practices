@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="smolModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityContainer Name="smolModelStoreContainer">
+          <EntitySet Name="Deparment" EntityType="smolModel.Store.Deparment" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="PhoneExt" EntityType="smolModel.Store.PhoneExt" store:Type="Tables" Schema="dbo" />
+          <AssociationSet Name="FK_PhoneExt_Deparment" Association="smolModel.Store.FK_PhoneExt_Deparment">
+            <End Role="Deparment" EntitySet="Deparment" />
+            <End Role="PhoneExt" EntitySet="PhoneExt" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="Deparment">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="nvarchar" Nullable="false" MaxLength="25" />
+        </EntityType>
+        <EntityType Name="PhoneExt">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Department" Type="int" Nullable="false" />
+          <Property Name="Nombre" Type="nvarchar" Nullable="false" MaxLength="30" />
+          <Property Name="Ext" Type="nvarchar" Nullable="false" MaxLength="4" />
+          <Property Name="Status" Type="char" Nullable="false" MaxLength="1" />
+        </EntityType>
+        <Association Name="FK_PhoneExt_Deparment">
+          <End Role="Deparment" Type="smolModel.Store.Deparment" Multiplicity="1" />
+          <End Role="PhoneExt" Type="smolModel.Store.PhoneExt" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Deparment">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="PhoneExt">
+              <PropertyRef Name="Department" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="smolModel" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityContainer Name="smolEntities" p1:LazyLoadingEnabled="true">
+          <EntitySet Name="Deparments" EntityType="smolModel.Deparment" />
+          <EntitySet Name="PhoneExts" EntityType="smolModel.PhoneExt" />
+          <AssociationSet Name="FK_PhoneExt_Deparment" Association="smolModel.FK_PhoneExt_Deparment">
+            <End Role="Deparment" EntitySet="Deparments" />
+            <End Role="PhoneExt" EntitySet="PhoneExts" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="Deparment">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" Nullable="false" MaxLength="25" Unicode="true" FixedLength="false" />
+          <NavigationProperty Name="PhoneExts" Relationship="smolModel.FK_PhoneExt_Deparment" FromRole="Deparment" ToRole="PhoneExt" />
+        </EntityType>
+        <EntityType Name="PhoneExt">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="Department" Type="Int32" Nullable="false" />
+          <Property Name="Nombre" Type="String" Nullable="false" MaxLength="30" Unicode="true" FixedLength="false" />
+          <Property Name="Ext" Type="String" Nullable="false" MaxLength="4" Unicode="true" FixedLength="false" />
+          <Property Name="Status" Type="String" Nullable="false" MaxLength="1" Unicode="false" FixedLength="true" />
+          <NavigationProperty Name="Deparment" Relationship="smolModel.FK_PhoneExt_Deparment" FromRole="PhoneExt" ToRole="Deparment" />
+        </EntityType>
+        <Association Name="FK_PhoneExt_Deparment">
+          <End Role="Deparment" Type="smolModel.Deparment" Multiplicity="1" />
+          <End Role="PhoneExt" Type="smolModel.PhoneExt" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Deparment">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="PhoneExt">
+              <PropertyRef Name="Department" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="smolModelStoreContainer" CdmEntityContainer="smolEntities">
+          <EntitySetMapping Name="Deparments">
+            <EntityTypeMapping TypeName="smolModel.Deparment">
+              <MappingFragment StoreEntitySet="Deparment">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="PhoneExts">
+            <EntityTypeMapping TypeName="smolModel.PhoneExt">
+              <MappingFragment StoreEntitySet="PhoneExt">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Department" ColumnName="Department" />
+                <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+                <ScalarProperty Name="Ext" ColumnName="Ext" />
+                <ScalarProperty Name="Status" ColumnName="Status" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="False" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="True" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="Ninguno" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

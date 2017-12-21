@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="smolModel" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="smolEntities" p1:LazyLoadingEnabled="true">
+    <EntitySet Name="Deparments" EntityType="smolModel.Deparment" />
+    <EntitySet Name="PhoneExts" EntityType="smolModel.PhoneExt" />
+    <AssociationSet Name="FK_PhoneExt_Deparment" Association="smolModel.FK_PhoneExt_Deparment">
+      <End Role="Deparment" EntitySet="Deparments" />
+      <End Role="PhoneExt" EntitySet="PhoneExts" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Deparment">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="25" Unicode="true" FixedLength="false" />
+    <NavigationProperty Name="PhoneExts" Relationship="smolModel.FK_PhoneExt_Deparment" FromRole="Deparment" ToRole="PhoneExt" />
+  </EntityType>
+  <EntityType Name="PhoneExt">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="Department" Type="Int32" Nullable="false" />
+    <Property Name="Nombre" Type="String" Nullable="false" MaxLength="30" Unicode="true" FixedLength="false" />
+    <Property Name="Ext" Type="String" Nullable="false" MaxLength="4" Unicode="true" FixedLength="false" />
+    <Property Name="Status" Type="String" Nullable="false" MaxLength="1" Unicode="false" FixedLength="true" />
+    <NavigationProperty Name="Deparment" Relationship="smolModel.FK_PhoneExt_Deparment" FromRole="PhoneExt" ToRole="Deparment" />
+  </EntityType>
+  <Association Name="FK_PhoneExt_Deparment">
+    <End Role="Deparment" Type="smolModel.Deparment" Multiplicity="1" />
+    <End Role="PhoneExt" Type="smolModel.PhoneExt" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Deparment">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="PhoneExt">
+        <PropertyRef Name="Department" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

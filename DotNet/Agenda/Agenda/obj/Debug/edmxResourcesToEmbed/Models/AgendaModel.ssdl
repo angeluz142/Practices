@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="smolModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="smolModelStoreContainer">
+    <EntitySet Name="Deparment" EntityType="smolModel.Store.Deparment" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="PhoneExt" EntityType="smolModel.Store.PhoneExt" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="FK_PhoneExt_Deparment" Association="smolModel.Store.FK_PhoneExt_Deparment">
+      <End Role="Deparment" EntitySet="Deparment" />
+      <End Role="PhoneExt" EntitySet="PhoneExt" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Deparment">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="nvarchar" Nullable="false" MaxLength="25" />
+  </EntityType>
+  <EntityType Name="PhoneExt">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Department" Type="int" Nullable="false" />
+    <Property Name="Nombre" Type="nvarchar" Nullable="false" MaxLength="30" />
+    <Property Name="Ext" Type="nvarchar" Nullable="false" MaxLength="4" />
+    <Property Name="Status" Type="char" Nullable="false" MaxLength="1" />
+  </EntityType>
+  <Association Name="FK_PhoneExt_Deparment">
+    <End Role="Deparment" Type="smolModel.Store.Deparment" Multiplicity="1" />
+    <End Role="PhoneExt" Type="smolModel.Store.PhoneExt" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Deparment">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="PhoneExt">
+        <PropertyRef Name="Department" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

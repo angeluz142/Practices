@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="smolModelStoreContainer" CdmEntityContainer="smolEntities">
+    <EntitySetMapping Name="Deparments">
+      <EntityTypeMapping TypeName="smolModel.Deparment">
+        <MappingFragment StoreEntitySet="Deparment">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PhoneExts">
+      <EntityTypeMapping TypeName="smolModel.PhoneExt">
+        <MappingFragment StoreEntitySet="PhoneExt">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Department" ColumnName="Department" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Ext" ColumnName="Ext" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
