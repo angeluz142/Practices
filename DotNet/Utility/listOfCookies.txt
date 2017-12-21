@@ -1,0 +1,26 @@
+Sub Terminar()
+	'Delete all cookies when user logut or expire its session
+
+            Try
+                Dim pcookies As New List(Of HttpCookie)
+                pcookies.Add(Response.Cookies("_usession"))
+                pcookies.Add(Response.Cookies("_autoser"))
+                pcookies.Add(Response.Cookies("_opeser"))
+                pcookies.Add(Response.Cookies("_men"))
+                ServicioUsuario.TerminarSesion()
+                ServicioAutenticacion.Terminar()
+                'Elimino las cookies creadas en el inicio de sesion
+                If pcookies IsNot Nothing Then
+                    For Each i In pcookies
+                        i.Expires = DateTime.Now.AddDays(-1)
+                        Response.Cookies.Add(i)
+                    Next
+
+                End If
+                FormsAuthentication.SignOut()
+                Dim s As New SaldoAzulApi(InformacionUsuario.LOCSA)
+                s.CerrarApi()
+            Catch ex As Exception
+
+            End Try
+        End Sub

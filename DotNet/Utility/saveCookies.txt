@@ -1,0 +1,112 @@
+Imports System.Text
+Imports System.Web
+Imports System.Web.Security
+Imports System.Runtime.CompilerServices
+
+Public Module Encriptar
+    Public Function encriptar(cadena As String) As String
+
+        Dim encryptedValue
+
+        If Not String.IsNullOrEmpty(cadena) Then
+            Dim cookieText = Encoding.UTF8.GetBytes(cadena)
+            encryptedValue = MachineKey.Encode(cookieText, MachineKeyProtection.All)
+        Else
+            encryptedValue = ""
+        End If
+
+
+        Return encryptedValue
+
+    End Function
+    Public Function desencriptar(cadena As String) As String
+        Dim encryptedValue
+        If Not String.IsNullOrEmpty(cadena) Then
+            Dim decryptValue = MachineKey.Decode(cadena, MachineKeyProtection.All)
+            encryptedValue = Encoding.UTF8.GetString(decryptValue)
+        Else
+            encryptedValue = ""
+        End If
+        Return encryptedValue
+    End Function
+
+End Module
+
+
+
+-------------------------------------------------------------------------------------------------------------------
+------------------------------------------- USING ENCRIPTAR CLASS -------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------
+
+
+  <HttpPost>
+        <AllowAnonymous>
+        Public Function IniciarSesion(model As InicioSesion) As ActionResult
+            model.Usuario = model.TipoDocumento & model.Usuario
+
+            Return Ejecutar(model, Function(m)
+                                       'Cookie Sesion Web Webstore
+                                       Dim uCookie = New HttpCookie("_usession")
+                                       'Cookie Para Mensajeria Autoservicio
+                                       Dim aCookie = New HttpCookie("_autoser")
+                                       'Cookie Operaciones Activas para el Punto Virtual Webstore
+                                       Dim oCookie = New HttpCookie("_opeser")
+                                       ' Cookie para menu
+                                       Dim mCookie = New HttpCookie("_men")
+
+                                       Dim usu As New ObjectModel.Collection(Of WebstoreIniciarSesionResultado1)
+                                       Dim menu As New ObjectModel.Collection(Of WebstoreIniciarSesionResultado2)
+                                       Dim ope As New ObjectModel.Collection(Of WebstoreIniciarSesionResultado3)
+                                       Dim conf As New ObjectModel.Collection(Of WebstoreIniciarSesionResultado4)
+                                       ServicioUsuario.IniciarSesion(m.Usuario, m.Clave, GetClientIpAddress(Request), usu, menu, ope, conf)
+
+                                       'Llenamos Cookie de la sesion de Webstore con los datos encriptados
+                                       uCookie.Values.Add("nombre", encriptar(usu.FirstOrDefault.NOMBRE))
+                                       uCookie.Values.Add("apellido", encriptar(usu.FirstOrDefault.APELLIDO))
+                                       uCookie.Values.Add("tusu", encriptar(usu.FirstOrDefault.T_SESION))
+                                       uCookie.Values.Add("pv", encriptar(usu.FirstOrDefault.PV))
+                                       uCookie.Values.Add("fpago", encriptar(usu.FirstOrDefault.FORPAG))
+                                       uCookie.Values.Add("tkn", encriptar(usu.FirstOrDefault.TOKEN))
+                                       uCookie.Values.Add("tip", encriptar(usu.FirstOrDefault.TIPO))
+                                       uCookie.Values.Add("ced", encriptar(usu.FirstOrDefault.CODUSU))
+                                       uCookie.Values.Add("ctasa", encriptar(usu.FirstOrDefault.CTASA))
+
+
+                                       'Llenamos Cookie de la sesion con parametros necesarios para invoncar mensajeria de autoservicio
+
+                                       aCookie.Values.Add("PTOKOPE", encriptar(conf.FirstOrDefault.VTOKSEG))
+                                       aCookie.Values.Add("PCODTAQ", encriptar(conf.FirstOrDefault.VCODTAQ))
+                                       aCookie.Values.Add("PNOMPUN", encriptar(conf.FirstOrDefault.VNOMPUN))
+                                       aCookie.Values.Add("PLOCAZU", encriptar(conf.FirstOrDefault.VLOCAZU))
+                                       aCookie.Values.Add("VNOMESQ", encriptar(conf.FirstOrDefault.VNOMESQ))
+                                       aCookie.Values.Add("PMENINF", encriptar(conf.FirstOrDefault.SMENINF))
+                                       aCookie.Values.Add("VCODREF", encriptar(conf.FirstOrDefault.VCODREF))
+                                       aCookie.Values.Add("VTERSMO", encriptar(conf.FirstOrDefault.VTERSMO))
+                                       aCookie.Values.Add("VCAPSMO", encriptar(conf.FirstOrDefault.VCAPSMO))
+
+
+
+
+                                       'Llenamos Cookie con las operaciones activas
+                                       For Each item In ope
+                                           oCookie.Values.Add("CODOPR", encriptar(item.CODOPR))
+                                           oCookie.Values.Add("DESOPR", encriptar(item.DESOPR))
+                                       Next
+
+                                       Dim f = ArmarMenu(menu)
+                                       mCookie.Value = f
+
+                                       Response.Cookies.Add(uCookie)
+                                       Response.Cookies.Add(aCookie)
+                                       Response.Cookies.Add(oCookie)
+                                       Response.Cookies.Add(mCookie)
+
+
+                                       ServicioAutenticacion.Iniciar(m.Usuario, usu.FirstOrDefault)
+
+                                       Return RedirectToAction("Inicio", "Usuario")
+
+                                   End Function)
+
+
+        End Function
