@@ -1,0 +1,101 @@
+G:\usuarios\gcarlos\Escritorio\testService2\ClienteWS\bin\Debug\ClienteWS.exe.config
+G:\usuarios\gcarlos\Escritorio\testService2\ClienteWS\bin\Debug\ClienteWS.exe
+G:\usuarios\gcarlos\Escritorio\testService2\ClienteWS\bin\Debug\ClienteWS.pdb
+G:\usuarios\gcarlos\Escritorio\testService2\ClienteWS\obj\Debug\ClienteWS.Form1.resources
+G:\usuarios\gcarlos\Escritorio\testService2\ClienteWS\obj\Debug\ClienteWS.Properties.Resources.resources
+G:\usuarios\gcarlos\Escritorio\testService2\ClienteWS\obj\Debug\ClienteWS.csproj.GenerateResource.Cache
+G:\usuarios\gcarlos\Escritorio\testService2\ClienteWS\obj\Debug\ClienteWS.exe
+G:\usuarios\gcarlos\Escritorio\testService2\ClienteWS\obj\Debug\ClienteWS.pdb
+G:\usuarios\gcarlos\Escritorio\testService2\ClienteWS\obj\Debug\ClienteWS.FrmListar.resources
+G:\usuarios\gcarlos\Escritorio\testService2\ClienteWS\obj\Debug\ClienteWS.FrmEditar.resources
+G:\usuarios\gcarlos\Escritorio\testService2\ClienteWS\obj\Debug\ClienteWS.Frmeliminar.resources
+G:\usuarios\gcarlos\Escritorio\testService2\ClienteWS\obj\Debug\ClienteWS.FrmInsertar.resources
+G:\usuarios\gcarlos\Escritorio\testService2 - copia\ClienteWS\bin\Debug\ClienteWS.exe.config
+G:\usuarios\gcarlos\Escritorio\testService2 - copia\ClienteWS\obj\Debug\ClienteWS.exe
+G:\usuarios\gcarlos\Escritorio\testService2 - copia\ClienteWS\obj\Debug\ClienteWS.pdb
+G:\usuarios\gcarlos\Escritorio\testService2 - copia\ClienteWS\bin\Debug\ClienteWS.exe
+G:\usuarios\gcarlos\Escritorio\testService2 - copia\ClienteWS\bin\Debug\ClienteWS.pdb
+G:\usuarios\gcarlos\Escritorio\testService2 - copia\ClienteWS\obj\Debug\ClienteWS.Form1.resources
+G:\usuarios\gcarlos\Escritorio\testService2 - copia\ClienteWS\obj\Debug\ClienteWS.FrmEditar.resources
+G:\usuarios\gcarlos\Escritorio\testService2 - copia\ClienteWS\obj\Debug\ClienteWS.Frmeliminar.resources
+G:\usuarios\gcarlos\Escritorio\testService2 - copia\ClienteWS\obj\Debug\ClienteWS.FrmInsertar.resources
+G:\usuarios\gcarlos\Escritorio\testService2 - copia\ClienteWS\obj\Debug\ClienteWS.FrmListar.resources
+G:\usuarios\gcarlos\Escritorio\testService2 - copia\ClienteWS\obj\Debug\ClienteWS.Properties.Resources.resources
+G:\usuarios\gcarlos\Escritorio\testService2 - copia\ClienteWS\obj\Debug\ClienteWS.csproj.GenerateResource.Cache
+G:\usuarios\gcarlos\Escritorio\testService2 - copia\ClienteWS\obj\Debug\ClienteWS.csprojResolveAssemblyReference.cache
+G:\usuarios\gcarlos\Escritorio\testService2 - copia - copia\ClienteWS\obj\Debug\ClienteWS.Form1.resources
+G:\usuarios\gcarlos\Escritorio\testService2 - copia - copia\ClienteWS\obj\Debug\ClienteWS.FrmBuscar.resources
+G:\usuarios\gcarlos\Escritorio\testService2 - copia - copia\ClienteWS\obj\Debug\ClienteWS.FrmEditar.resources
+G:\usuarios\gcarlos\Escritorio\testService2 - copia - copia\ClienteWS\obj\Debug\ClienteWS.Frmeliminar.resources
+G:\usuarios\gcarlos\Escritorio\testService2 - copia - copia\ClienteWS\obj\Debug\ClienteWS.FrmInsertar.resources
+G:\usuarios\gcarlos\Escritorio\testService2 - copia - copia\ClienteWS\obj\Debug\ClienteWS.FrmListar.resources
+G:\usuarios\gcarlos\Escritorio\testService2 - copia - copia\ClienteWS\obj\Debug\ClienteWS.Properties.Resources.resources
+G:\usuarios\gcarlos\Escritorio\testService2 - copia - copia\ClienteWS\obj\Debug\ClienteWS.csproj.GenerateResource.Cache
+G:\usuarios\gcarlos\Escritorio\testService2 - copia - copia\ClienteWS\bin\Debug\ClienteWS.exe.config
+G:\usuarios\gcarlos\Escritorio\testService2 - copia - copia\ClienteWS\bin\Debug\ClienteWS.exe
+G:\usuarios\gcarlos\Escritorio\testService2 - copia - copia\ClienteWS\bin\Debug\ClienteWS.pdb
+G:\usuarios\gcarlos\Escritorio\testService2 - copia - copia\ClienteWS\obj\Debug\ClienteWS.exe
+G:\usuarios\gcarlos\Escritorio\testService2 - copia - copia\ClienteWS\obj\Debug\ClienteWS.pdb
+D:\users\UANGEL\Mis Documentos\Documentos\Pruebas\ASP\Servicios Web\wcf\testService2\ClienteWS\bin\Debug\ClienteWS.exe.config
+D:\users\UANGEL\Mis Documentos\Documentos\Pruebas\ASP\Servicios Web\wcf\testService2\ClienteWS\bin\Debug\ClienteWS.exe
+D:\users\UANGEL\Mis Documentos\Documentos\Pruebas\ASP\Servicios Web\wcf\testService2\ClienteWS\bin\Debug\ClienteWS.pdb
+D:\users\UANGEL\Mis Documentos\Documentos\Pruebas\ASP\Servicios Web\wcf\testService2\ClienteWS\obj\Debug\ClienteWS.Form1.resources
+D:\users\UANGEL\Mis Documentos\Documentos\Pruebas\ASP\Servicios Web\wcf\testService2\ClienteWS\obj\Debug\ClienteWS.FrmBuscar.resources
+D:\users\UANGEL\Mis Documentos\Documentos\Pruebas\ASP\Servicios Web\wcf\testService2\ClienteWS\obj\Debug\ClienteWS.FrmEditar.resources
+D:\users\UANGEL\Mis Documentos\Documentos\Pruebas\ASP\Servicios Web\wcf\testService2\ClienteWS\obj\Debug\ClienteWS.Frmeliminar.resources
+D:\users\UANGEL\Mis Documentos\Documentos\Pruebas\ASP\Servicios Web\wcf\testService2\ClienteWS\obj\Debug\ClienteWS.FrmInsertar.resources
+D:\users\UANGEL\Mis Documentos\Documentos\Pruebas\ASP\Servicios Web\wcf\testService2\ClienteWS\obj\Debug\ClienteWS.FrmListar.resources
+D:\users\UANGEL\Mis Documentos\Documentos\Pruebas\ASP\Servicios Web\wcf\testService2\ClienteWS\obj\Debug\ClienteWS.Properties.Resources.resources
+D:\users\UANGEL\Mis Documentos\Documentos\Pruebas\ASP\Servicios Web\wcf\testService2\ClienteWS\obj\Debug\ClienteWS.csproj.GenerateResource.Cache
+D:\users\UANGEL\Mis Documentos\Documentos\Pruebas\ASP\Servicios Web\wcf\testService2\ClienteWS\obj\Debug\ClienteWS.exe
+D:\users\UANGEL\Mis Documentos\Documentos\Pruebas\ASP\Servicios Web\wcf\testService2\ClienteWS\obj\Debug\ClienteWS.pdb
+D:\users\UANGEL\Mis Documentos\Documentos\Pruebas\ASP\Servicios Web\wcf\testService2\ClienteWS\obj\Debug\ClienteWS.csprojResolveAssemblyReference.cache
+D:\users\UANGEL\Mis Documentos\Documentos\Pruebas\ASP\Servicios Web\wcf\testService3\ClienteWS\bin\Debug\ClienteWS.exe.config
+D:\users\UANGEL\Mis Documentos\Documentos\Pruebas\ASP\Servicios Web\wcf\testService3\ClienteWS\obj\Debug\ClienteWS.exe
+D:\users\UANGEL\Mis Documentos\Documentos\Pruebas\ASP\Servicios Web\wcf\testService3\ClienteWS\obj\Debug\ClienteWS.pdb
+D:\users\UANGEL\Mis Documentos\Documentos\Pruebas\ASP\Servicios Web\wcf\testService4\ClienteWS\bin\Debug\ClienteWS.exe.config
+D:\users\UANGEL\Mis Documentos\Documentos\Pruebas\ASP\Servicios Web\wcf\testService4\ClienteWS\obj\Debug\ClienteWS.exe
+D:\users\UANGEL\Mis Documentos\Documentos\Pruebas\ASP\Servicios Web\wcf\testService4\ClienteWS\obj\Debug\ClienteWS.pdb
+D:\users\UANGEL\Mis Documentos\Documentos\Pruebas\ASP\Servicios Web\wcf\testService4\ClienteWS\bin\Debug\ClienteWS.exe
+D:\users\UANGEL\Mis Documentos\Documentos\Pruebas\ASP\Servicios Web\wcf\testService4\ClienteWS\bin\Debug\ClienteWS.pdb
+D:\users\UANGEL\Mis Documentos\Documentos\Pruebas\ASP\Servicios Web\wcf\testService4\ClienteWS\obj\Debug\ClienteWS.Form1.resources
+D:\users\UANGEL\Mis Documentos\Documentos\Pruebas\ASP\Servicios Web\wcf\testService4\ClienteWS\obj\Debug\ClienteWS.FrmBuscar.resources
+D:\users\UANGEL\Mis Documentos\Documentos\Pruebas\ASP\Servicios Web\wcf\testService4\ClienteWS\obj\Debug\ClienteWS.FrmEditar.resources
+D:\users\UANGEL\Mis Documentos\Documentos\Pruebas\ASP\Servicios Web\wcf\testService4\ClienteWS\obj\Debug\ClienteWS.Frmeliminar.resources
+D:\users\UANGEL\Mis Documentos\Documentos\Pruebas\ASP\Servicios Web\wcf\testService4\ClienteWS\obj\Debug\ClienteWS.FrmInsertar.resources
+D:\users\UANGEL\Mis Documentos\Documentos\Pruebas\ASP\Servicios Web\wcf\testService4\ClienteWS\obj\Debug\ClienteWS.FrmListar.resources
+D:\users\UANGEL\Mis Documentos\Documentos\Pruebas\ASP\Servicios Web\wcf\testService4\ClienteWS\obj\Debug\ClienteWS.Properties.Resources.resources
+D:\users\UANGEL\Mis Documentos\Documentos\Pruebas\ASP\Servicios Web\wcf\testService4\ClienteWS\obj\Debug\ClienteWS.csproj.GenerateResource.Cache
+D:\users\UANGEL\Mis Documentos\Documentos\Pruebas\ASP\Servicios Web\wcf\testService5 test\ClienteWS\bin\Debug\ClienteWS.exe.config
+D:\users\UANGEL\Mis Documentos\Documentos\Pruebas\ASP\Servicios Web\wcf\testService5 test\ClienteWS\obj\Debug\ClienteWS.exe
+D:\users\UANGEL\Mis Documentos\Documentos\Pruebas\ASP\Servicios Web\wcf\testService5 test\ClienteWS\obj\Debug\ClienteWS.pdb
+D:\users\UANGEL\Mis Documentos\Documentos\Pruebas\ASP\Servicios Web\wcf\testService5 test\ClienteWS\bin\Debug\ClienteWS.exe
+D:\users\UANGEL\Mis Documentos\Documentos\Pruebas\ASP\Servicios Web\wcf\testService5 test\ClienteWS\bin\Debug\ClienteWS.pdb
+D:\users\UANGEL\Mis Documentos\Documentos\Pruebas\ASP\Servicios Web\wcf\testService5 test\ClienteWS\obj\Debug\ClienteWS.Form1.resources
+D:\users\UANGEL\Mis Documentos\Documentos\Pruebas\ASP\Servicios Web\wcf\testService5 test\ClienteWS\obj\Debug\ClienteWS.FrmBuscar.resources
+D:\users\UANGEL\Mis Documentos\Documentos\Pruebas\ASP\Servicios Web\wcf\testService5 test\ClienteWS\obj\Debug\ClienteWS.FrmEditar.resources
+D:\users\UANGEL\Mis Documentos\Documentos\Pruebas\ASP\Servicios Web\wcf\testService5 test\ClienteWS\obj\Debug\ClienteWS.Frmeliminar.resources
+D:\users\UANGEL\Mis Documentos\Documentos\Pruebas\ASP\Servicios Web\wcf\testService5 test\ClienteWS\obj\Debug\ClienteWS.FrmInsertar.resources
+D:\users\UANGEL\Mis Documentos\Documentos\Pruebas\ASP\Servicios Web\wcf\testService5 test\ClienteWS\obj\Debug\ClienteWS.FrmListar.resources
+D:\users\UANGEL\Mis Documentos\Documentos\Pruebas\ASP\Servicios Web\wcf\testService5 test\ClienteWS\obj\Debug\ClienteWS.Properties.Resources.resources
+D:\users\UANGEL\Mis Documentos\Documentos\Pruebas\ASP\Servicios Web\wcf\testService5 test\ClienteWS\obj\Debug\ClienteWS.csproj.GenerateResource.Cache
+D:\users\UANGEL\Mis Documentos\Documentos\Pruebas\ASP\Servicios Web\wcf\testService6 test - Copy\ClienteWS\bin\Debug\ClienteWS.exe.config
+D:\users\UANGEL\Mis Documentos\Documentos\Pruebas\ASP\Servicios Web\wcf\testService6 test - Copy\ClienteWS\obj\Debug\ClienteWS.exe
+D:\users\UANGEL\Mis Documentos\Documentos\Pruebas\ASP\Servicios Web\wcf\testService6 test - Copy\ClienteWS\obj\Debug\ClienteWS.pdb
+D:\users\UANGEL\Mis Documentos\Documentos\Pruebas\ASP\Servicios Web\wcf\testService7 test - Copy\ClienteWS\bin\Debug\ClienteWS.exe.config
+D:\users\UANGEL\Mis Documentos\Documentos\Pruebas\ASP\Servicios Web\wcf\testService7 test - Copy\ClienteWS\obj\Debug\ClienteWS.exe
+D:\users\UANGEL\Mis Documentos\Documentos\Pruebas\ASP\Servicios Web\wcf\testService7 test - Copy\ClienteWS\obj\Debug\ClienteWS.pdb
+D:\users\UANGEL\Mis Documentos\Documentos\Pruebas\ASP\Servicios Web\wcf\testService7 test - Copy\ClienteWS\bin\Debug\ClienteWS.exe
+D:\users\UANGEL\Mis Documentos\Documentos\Pruebas\ASP\Servicios Web\wcf\testService7 test - Copy\ClienteWS\bin\Debug\ClienteWS.pdb
+D:\users\UANGEL\Mis Documentos\Documentos\Pruebas\ASP\Servicios Web\wcf\testService7 test - Copy\ClienteWS\obj\Debug\ClienteWS.Form1.resources
+D:\users\UANGEL\Mis Documentos\Documentos\Pruebas\ASP\Servicios Web\wcf\testService7 test - Copy\ClienteWS\obj\Debug\ClienteWS.FrmBuscar.resources
+D:\users\UANGEL\Mis Documentos\Documentos\Pruebas\ASP\Servicios Web\wcf\testService7 test - Copy\ClienteWS\obj\Debug\ClienteWS.FrmEditar.resources
+D:\users\UANGEL\Mis Documentos\Documentos\Pruebas\ASP\Servicios Web\wcf\testService7 test - Copy\ClienteWS\obj\Debug\ClienteWS.Frmeliminar.resources
+D:\users\UANGEL\Mis Documentos\Documentos\Pruebas\ASP\Servicios Web\wcf\testService7 test - Copy\ClienteWS\obj\Debug\ClienteWS.FrmInsertar.resources
+D:\users\UANGEL\Mis Documentos\Documentos\Pruebas\ASP\Servicios Web\wcf\testService7 test - Copy\ClienteWS\obj\Debug\ClienteWS.FrmListar.resources
+D:\users\UANGEL\Mis Documentos\Documentos\Pruebas\ASP\Servicios Web\wcf\testService7 test - Copy\ClienteWS\obj\Debug\ClienteWS.Properties.Resources.resources
+D:\users\UANGEL\Mis Documentos\Documentos\Pruebas\ASP\Servicios Web\wcf\testService7 test - Copy\ClienteWS\obj\Debug\ClienteWS.csproj.GenerateResource.Cache
+D:\users\UANGEL\Mis Documentos\Documentos\Pruebas\ASP\Servicios Web\wcf\testService7 test - Copy\ClienteWS\obj\Debug\ClienteWS.csprojResolveAssemblyReference.cache
+C:\Users\Angel\Desktop\Servicios Web\wcf\testService7\ClienteWS\bin\Debug\ClienteWS.exe.config
+C:\Users\Angel\Desktop\Servicios Web\wcf\testService7\ClienteWS\obj\Debug\ClienteWS.exe
+C:\Users\Angel\Desktop\Servicios Web\wcf\testService7\ClienteWS\obj\Debug\ClienteWS.pdb

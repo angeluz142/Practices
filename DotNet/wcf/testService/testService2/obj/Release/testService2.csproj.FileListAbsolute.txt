@@ -1,0 +1,15 @@
+D:\users\UANGEL\Mis Documentos\Documentos\Pruebas\ASP\Servicios Web\wcf\testService3\testService2\bin\testService2.dll
+D:\users\UANGEL\Mis Documentos\Documentos\Pruebas\ASP\Servicios Web\wcf\testService3\testService2\bin\testService2.pdb
+D:\users\UANGEL\Mis Documentos\Documentos\Pruebas\ASP\Servicios Web\wcf\testService3\testService2\obj\Release\testService2.csprojResolveAssemblyReference.cache
+D:\users\UANGEL\Mis Documentos\Documentos\Pruebas\ASP\Servicios Web\wcf\testService3\testService2\obj\Release\testService2.dll
+D:\users\UANGEL\Mis Documentos\Documentos\Pruebas\ASP\Servicios Web\wcf\testService3\testService2\obj\Release\testService2.pdb
+D:\users\UANGEL\Mis Documentos\Documentos\Pruebas\ASP\Servicios Web\wcf\testService4\testService2\bin\testService2.dll
+D:\users\UANGEL\Mis Documentos\Documentos\Pruebas\ASP\Servicios Web\wcf\testService4\testService2\bin\testService2.pdb
+D:\users\UANGEL\Mis Documentos\Documentos\Pruebas\ASP\Servicios Web\wcf\testService4\testService2\obj\Release\testService2.csprojResolveAssemblyReference.cache
+D:\users\UANGEL\Mis Documentos\Documentos\Pruebas\ASP\Servicios Web\wcf\testService4\testService2\obj\Release\testService2.dll
+D:\users\UANGEL\Mis Documentos\Documentos\Pruebas\ASP\Servicios Web\wcf\testService4\testService2\obj\Release\testService2.pdb
+D:\users\UANGEL\Mis Documentos\Documentos\Pruebas\ASP\Servicios Web\wcf\testService7 test - Copy\testService2\bin\testService2.dll
+D:\users\UANGEL\Mis Documentos\Documentos\Pruebas\ASP\Servicios Web\wcf\testService7 test - Copy\testService2\bin\testService2.pdb
+D:\users\UANGEL\Mis Documentos\Documentos\Pruebas\ASP\Servicios Web\wcf\testService7 test - Copy\testService2\obj\Release\testService2.csprojResolveAssemblyReference.cache
+D:\users\UANGEL\Mis Documentos\Documentos\Pruebas\ASP\Servicios Web\wcf\testService7 test - Copy\testService2\obj\Release\testService2.dll
+D:\users\UANGEL\Mis Documentos\Documentos\Pruebas\ASP\Servicios Web\wcf\testService7 test - Copy\testService2\obj\Release\testService2.pdb

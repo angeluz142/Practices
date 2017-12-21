@@ -1,0 +1,5 @@
+﻿-----------------  Error:Unknown Username or Password
+
+
+System.IdentityModel.Tokens.SecurityTokenException: Unknown Username or Password
+   at testService2.AuthValidation.Validate(String userName, String password) in d:\users\UANGEL\Mis Documentos\Documentos\Pruebas\ASP\Servicios Web\wcf\testService7 test - Copy\testService2\AuthValidation.cs:line 53

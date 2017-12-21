@@ -1,0 +1,42 @@
+c:\users\angel\documents\visual studio 2012\Projects\testService2\testService2\bin\testService2.dll
+c:\users\angel\documents\visual studio 2012\Projects\testService2\testService2\bin\testService2.pdb
+c:\users\angel\documents\visual studio 2012\Projects\testService2\testService2\obj\Debug\testService2.csprojResolveAssemblyReference.cache
+c:\users\angel\documents\visual studio 2012\Projects\testService2\testService2\obj\Debug\testService2.dll
+c:\users\angel\documents\visual studio 2012\Projects\testService2\testService2\obj\Debug\testService2.pdb
+G:\usuarios\gcarlos\Escritorio\testService2\testService2\bin\testService2.dll
+G:\usuarios\gcarlos\Escritorio\testService2\testService2\bin\testService2.pdb
+G:\usuarios\gcarlos\Escritorio\testService2\testService2\obj\Debug\testService2.dll
+G:\usuarios\gcarlos\Escritorio\testService2\testService2\obj\Debug\testService2.pdb
+G:\usuarios\gcarlos\Escritorio\testService2\testService2\obj\Debug\testService2.csprojResolveAssemblyReference.cache
+G:\usuarios\gcarlos\Escritorio\testService2 - copia\testService2\bin\testService2.dll
+G:\usuarios\gcarlos\Escritorio\testService2 - copia\testService2\bin\testService2.pdb
+G:\usuarios\gcarlos\Escritorio\testService2 - copia\testService2\obj\Debug\testService2.csprojResolveAssemblyReference.cache
+G:\usuarios\gcarlos\Escritorio\testService2 - copia\testService2\obj\Debug\testService2.dll
+G:\usuarios\gcarlos\Escritorio\testService2 - copia\testService2\obj\Debug\testService2.pdb
+G:\usuarios\gcarlos\Escritorio\testService2 - copia - copia\testService2\bin\testService2.dll
+G:\usuarios\gcarlos\Escritorio\testService2 - copia - copia\testService2\bin\testService2.pdb
+G:\usuarios\gcarlos\Escritorio\testService2 - copia - copia\testService2\obj\Debug\testService2.dll
+G:\usuarios\gcarlos\Escritorio\testService2 - copia - copia\testService2\obj\Debug\testService2.pdb
+G:\usuarios\gcarlos\Escritorio\testService2 - copia - copia\testService2\obj\Debug\testService2.csprojResolveAssemblyReference.cache
+D:\users\UANGEL\Mis Documentos\Documentos\Pruebas\ASP\Servicios Web\wcf\testService2\testService2\bin\testService2.dll
+D:\users\UANGEL\Mis Documentos\Documentos\Pruebas\ASP\Servicios Web\wcf\testService2\testService2\bin\testService2.pdb
+D:\users\UANGEL\Mis Documentos\Documentos\Pruebas\ASP\Servicios Web\wcf\testService2\testService2\obj\Debug\testService2.dll
+D:\users\UANGEL\Mis Documentos\Documentos\Pruebas\ASP\Servicios Web\wcf\testService2\testService2\obj\Debug\testService2.pdb
+D:\users\UANGEL\Mis Documentos\Documentos\Pruebas\ASP\Servicios Web\wcf\testService2\testService2\obj\Debug\testService2.csprojResolveAssemblyReference.cache
+D:\users\UANGEL\Mis Documentos\Documentos\Pruebas\ASP\Servicios Web\wcf\testService4\testService2\bin\testService2.dll
+D:\users\UANGEL\Mis Documentos\Documentos\Pruebas\ASP\Servicios Web\wcf\testService4\testService2\bin\testService2.pdb
+D:\users\UANGEL\Mis Documentos\Documentos\Pruebas\ASP\Servicios Web\wcf\testService4\testService2\obj\Debug\testService2.dll
+D:\users\UANGEL\Mis Documentos\Documentos\Pruebas\ASP\Servicios Web\wcf\testService4\testService2\obj\Debug\testService2.pdb
+D:\users\UANGEL\Mis Documentos\Documentos\Pruebas\ASP\Servicios Web\wcf\testService5 test\testService2\bin\testService2.dll
+D:\users\UANGEL\Mis Documentos\Documentos\Pruebas\ASP\Servicios Web\wcf\testService5 test\testService2\bin\testService2.pdb
+D:\users\UANGEL\Mis Documentos\Documentos\Pruebas\ASP\Servicios Web\wcf\testService5 test\testService2\obj\Debug\testService2.dll
+D:\users\UANGEL\Mis Documentos\Documentos\Pruebas\ASP\Servicios Web\wcf\testService5 test\testService2\obj\Debug\testService2.pdb
+D:\users\UANGEL\Mis Documentos\Documentos\Pruebas\ASP\Servicios Web\wcf\testService6 test - Copy\testService2\bin\testService2.dll
+D:\users\UANGEL\Mis Documentos\Documentos\Pruebas\ASP\Servicios Web\wcf\testService6 test - Copy\testService2\bin\testService2.pdb
+D:\users\UANGEL\Mis Documentos\Documentos\Pruebas\ASP\Servicios Web\wcf\testService6 test - Copy\testService2\obj\Debug\testService2.csprojResolveAssemblyReference.cache
+D:\users\UANGEL\Mis Documentos\Documentos\Pruebas\ASP\Servicios Web\wcf\testService6 test - Copy\testService2\obj\Debug\testService2.dll
+D:\users\UANGEL\Mis Documentos\Documentos\Pruebas\ASP\Servicios Web\wcf\testService6 test - Copy\testService2\obj\Debug\testService2.pdb
+D:\users\UANGEL\Mis Documentos\Documentos\Pruebas\ASP\Servicios Web\wcf\testService7 test - Copy\testService2\bin\testService2.dll
+D:\users\UANGEL\Mis Documentos\Documentos\Pruebas\ASP\Servicios Web\wcf\testService7 test - Copy\testService2\bin\testService2.pdb
+D:\users\UANGEL\Mis Documentos\Documentos\Pruebas\ASP\Servicios Web\wcf\testService7 test - Copy\testService2\obj\Debug\testService2.dll
+D:\users\UANGEL\Mis Documentos\Documentos\Pruebas\ASP\Servicios Web\wcf\testService7 test - Copy\testService2\obj\Debug\testService2.pdb

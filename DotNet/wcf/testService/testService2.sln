@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "testService2", "testService2\testService2.csproj", "{610977E8-7850-4FB2-B27B-E30BADD1243C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F55790C1-C900-498A-A170-A168580A09E8} = {F55790C1-C900-498A-A170-A168580A09E8}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClienteWS", "ClienteWS\ClienteWS.csproj", "{F55790C1-C900-498A-A170-A168580A09E8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{610977E8-7850-4FB2-B27B-E30BADD1243C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{610977E8-7850-4FB2-B27B-E30BADD1243C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{610977E8-7850-4FB2-B27B-E30BADD1243C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{610977E8-7850-4FB2-B27B-E30BADD1243C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F55790C1-C900-498A-A170-A168580A09E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F55790C1-C900-498A-A170-A168580A09E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F55790C1-C900-498A-A170-A168580A09E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F55790C1-C900-498A-A170-A168580A09E8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
