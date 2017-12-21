@@ -1,0 +1,44 @@
+body{
+	font-family: helvetica;
+}
+
+#header{
+	background-color: #FF8E48;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+}
+
+h4{
+	vertical-align: middle;
+	color: white;
+	font-weight: bold;
+}
+
+.row{
+	margin: 10px 20px;
+}
+
+#results{
+	margin: 30px 20px 10px 0px;
+}
+
+.person-row{
+	margin: 10px 0px;
+	padding: 10px;
+	background-color: #FF8E48;
+	width: 100%;
+	float: left;
+}
+
+.person-row img{
+	float: left;
+	margin-right: 20px;
+	width: 70px;
+}
+.personal-info{
+	float: left;
+}
+.person-row>button{
+	float: right;
+}
